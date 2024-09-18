@@ -10,8 +10,9 @@ header{
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #ff7300;
+    background-color: #003cff;
     font-family: "Dancing Script" , Arial, Helvetica, sans-serif;
+    color: white;
     
 }
 .header-title{
@@ -53,7 +54,7 @@ section {
 }
 
 .foods-container {
-    background-color: #ff7300;
+    background-color: #003cff;
     padding: 0px;
     border-radius: 15px;
     width: 400px;
@@ -93,7 +94,7 @@ hr {
 }
 
 .drinks-container {
-    background-color: #ff7300;
+    background-color: #003cff;
     padding: 0px;
     border-radius: 15px;
     width: 220px;
@@ -115,13 +116,14 @@ footer{ /* Ocupar a largura toda */
     /* Divide em Blocos */
     
     .footer-content{
-    background-color:#ff7300;
+    background-color:#003cff;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 3rem 3.5rem;
+    color: white;
     }
     footer ul li {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     }
     .footer-logo{
     width: 200px;
@@ -143,19 +145,19 @@ footer{ /* Ocupar a largura toda */
     /* Mantém a bolinha do li de uma cor no footer */
     
     footer ul li{
-    color: #000000;
+    color: #ffffff;
     }
     /* Mantém o texto do li de outra cor no footer */
     
     footer ul li span{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     }
     /*Fim footer */
     
     /* Tira sublinhados */
     a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     }
     i{
     margin: 5px;
